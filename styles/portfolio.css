@@ -6,6 +6,7 @@
 }
 
 body {
+  background: #faf5e4;
   font-family: var(--default-font-family);
 }
 
@@ -21,12 +22,15 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 50px;
   line-height: 1.5;
 }
 
 h2 {
   font-size: 64px;
+}
+h3 {
+  font-size: 15px;
 }
 
 p {
@@ -56,7 +60,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: #2c786c;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -65,8 +69,8 @@ p {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: #2c786c;
+  border: 1px solid #2c786c;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
