@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --secondary-color: bisque;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -66,6 +66,15 @@ nav a:hover {
 nav li.active a {
   color: peru;
 }
+footer {
+  margin: 60px 0;
+}
+
+footer .contact.box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -75,6 +84,19 @@ footer .email-link {
 
 footer .email-link:hover {
   color: brown;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #2c786c;
+  background-color: bisque;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: peru;
 }
 .hero {
   background: var(--secondary-color);
