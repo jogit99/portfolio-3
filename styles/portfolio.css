@@ -117,6 +117,9 @@ footer .social-links a:hover {
   line-height: 1.5;
   font-size: 24px;
 }
+.content-container {
+  padding: 60px 20px;
+}
 
 .btn-branding {
   background: #2c786c;
