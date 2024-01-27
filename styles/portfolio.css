@@ -4,7 +4,6 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-
 body {
   background: #faf5e4;
   font-family: var(--default-font-family);
@@ -22,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 96px;
   line-height: 1.5;
 }
 
@@ -38,9 +37,68 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
 
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+.content-container {
+  padding: 160px 20px;
+}
+.content h1 {
+  font: size 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font: size 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content {
+  margin: 30px;
+}
+
+.btn-branding {
+  background: #2c786c;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: #2c786c;
+  border: 1px solid #2c786c;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-desciption {
+  padding: 120px 60px;
+}
 .logo {
-  max-width: 150px;
+  max-width: 140px;
 }
 nav {
   padding: 20px 0;
@@ -52,8 +110,8 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 44px;
-  margin-left: 10px;
+  line-height: 42px;
+  margin-left: 15px;
 }
 nav a {
   text-decoration: none;
@@ -65,6 +123,30 @@ nav a:hover {
 }
 nav li.active a {
   color: peru;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
 footer {
   margin: 60px 0;
@@ -97,71 +179,4 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: peru;
-}
-.hero {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
-
-.hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 24px;
-}
-.content-container {
-  padding: 60px 20px;
-}
-
-.btn-branding {
-  background: #2c786c;
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-
-.btn-branding-outline {
-  color: #2c786c;
-  border: 1px solid #2c786c;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-
-.project-desciption {
-  padding: 120px 60px;
-}
-
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 2;
-  }
-
-  h2 {
-    font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
-  }
-
-  .project-desciption {
-    padding: 0;
-    text-align: center;
-  }
-  p {
-    font-size: 30px;
-  }
 }
