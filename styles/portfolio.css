@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6c63ff;
-  --secondary-color: bisque;
+  --secondary-color: #fbf2d5;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -21,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 50px;
   line-height: 1.5;
 }
 
@@ -44,7 +44,7 @@ p {
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -170,7 +170,7 @@ footer .email-link:hover {
 footer .social-links a {
   margin: 0 20px;
   color: #2c786c;
-  background-color: bisque;
+  background-color: #fbf2d5;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
